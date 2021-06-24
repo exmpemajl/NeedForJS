@@ -152,3 +152,28 @@ table {
     background: rgb(208, 255, 0);
     left: 145px;
 }
+.start {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    color: #eb5a1e;
+    cursor: pointer;
+    line-height: 24px;
+}
+.score {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    padding: 1rem 0;
+    z-index: 200;
+    color: skyblue;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+}
